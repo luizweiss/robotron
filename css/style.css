@@ -37,6 +37,34 @@ main {
     position: relative;
 }
 
+
+.alterar {
+    margin: 2px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0.2em 1em;
+    /*float: right;*/
+    border: 3px solid var(--main-branco);
+    background-color: var(--main-branco);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.alterar:hover {
+    background: var(--main-preto);
+    color: var(--main-branco)
+}
+
+.botoes {
+   position:relative;
+   right: 10%;
+   bottom: 10%;
+   display:flex;
+   margin-top: 1em;
+}
+
+
 .robo {
     height: 110%;
     z-index: 1;
